@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css?family=Lato:300,300i,700|Playfair+Display&display=swap");
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font: 300 18px/1.89 "Lato", sans-serif;
+  color: #7a7a7a;
+  letter-spacing: -0.005;
+}
+
+/* Layout */
+.ba-container {
+  padding: 116px 122px 135px;
+  max-width: 1400px;
+  margin: 130px auto;
+  border: 1px solid #f7f7f7;
+  box-shadow: 0 0 25px 25px #f7f7f7;
+}
+
+.ba-title {
+  font-family: "Playfair Display", serif;
+  font-weight: 400;
+  font-size: 42px;
+  color: #171717;
+  margin-bottom: 7px;
+}
+
+.ba-article {
+  margin-bottom: 36px;
+}
+.ba-article :first-child::first-letter {
+  font-family: "Playfair Display", serif;
+  font-weight: 400;
+  font-size: 110px;
+  color: #171717;
+  float: left;
+  line-height: 85px;
+  margin-right: 27px;
+  padding: 0;
+}
+
+.ba-article :last-child {
+  margin-bottom: 0;
+}
+
+p {
+  margin-bottom: 36px;
+  letter-spacing: 1px;
+}
+
+.ba-aside::before {
+  content: "\201c";
+  font-size: 70px;
+  line-height: 1px;
+  color: #5c5c5c;
+  margin-right: 21px;
+}
+
+.ba-aside {
+  font-size: 24px;
+  line-height: 1px;
+  font-style: italic;
+  margin-bottom: 70px;
+  letter-spacing: 2px;
+}
+
+.ba-button {
+  font-weight: 700;
+  letter-spacing: 0.2;
+  color: #eaa258;
+  padding: 21px 73px;
+  text-decoration: none;
+  border: 2px solid #eaa258;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
